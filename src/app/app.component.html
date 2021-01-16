@@ -1,8 +1,27 @@
 <main>
     <mat-card>
         <mat-card-content #notes></mat-card-content>
+        <mat-card-actions>
+            <mat-form-field>
+                <mat-label>Answer</mat-label>
+                <input matInput>
+            </mat-form-field>
+        </mat-card-actions>
     </mat-card>
 
-    <form></form>
+    <form>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Input</mat-label>
+            <input matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Textarea</mat-label>
+            <textarea matInput></textarea>
+        </mat-form-field>
+
+        <button mat-button>Start</button>
+    </form>
 </main>
 
